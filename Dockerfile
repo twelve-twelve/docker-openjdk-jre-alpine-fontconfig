@@ -1,4 +1,4 @@
-FROM openjdk:8u131-jre-alpine
+FROM java:openjdk-8u92-jre-alpine
  
 # Needed to fix 'Fontconfig warning: ignoring C.UTF-8: not a valid language tag'
 ENV LANG en_GB.UTF-8
